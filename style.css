@@ -1,0 +1,123 @@
+
+
+
+html
+{
+	background-image: url(panda.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+
+
+}
+
+body{
+	width: 100%;
+}
+
+.logo {
+
+	top: 0;
+	left: 0;
+	position:fixed;
+  }
+
+#menu
+{
+	position: fixed;
+	width: 100%;
+	height: 45px;
+	opacity: 85%;
+	text-align: center;
+	font-size: 24px;
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	background-color: darkgrey;
+	top:0;
+	left:0;
+	right:0;
+	border-radius: 10px 10px 10px 10px;
+	list-style-type: none;
+	display: inline-block;
+	z-index: 9999;
+
+}
+
+#manu:hover
+{
+	font-size: 25px;
+	background-color: rgb(62, 56, 110,0.3s);
+	transition: 0.5s;
+}
+
+#about
+{
+	width: 70%;
+	font-size: 25px;
+	margin-top: 100px;
+
+	background-color: rgb(62, 56, 110,0.3s);
+	position: relative;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	left:15%;
+	
+}
+
+#aboutText
+{
+	background-color: rgba(145, 145, 145, 0.7);
+	border-radius: 20px;
+	display: table;
+}
+
+.menuObject
+{
+	position: relative;
+	flex: 2;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	margin-right: 5%;
+	left: 18%;
+	float:left;
+	margin-top: 0;
+	
+	float: left;
+	color: rgb(199, 199, 199);
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-text-stroke: 1px rgb(0, 100, 22);
+
+}
+
+.section{
+	text-align: center;
+	width: 100%;	
+}
+
+h1{
+	font: 70px 'Roboto', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	color:rgba(149, 153, 151, 0.575);
+	-webkit-text-stroke: 2px rgb(0, 100, 22);
+}
+
+.f_b{
+	font: 30px 'Roboto', sans-serif;
+	font-weight: bold;
+	color:rgba(0, 0, 0, 0.575);
+	/* -webkit-text-stroke: 2px rgb(185, 185, 185); */
+	background-color: rgba(126, 121, 121, 0.6);
+	display: table;
+	position: relative;
+	border-radius: 8px;
+	left:37%;
+
+
+
+}
+
+
