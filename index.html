@@ -2,6 +2,8 @@
 <html>
   <head>
 
+
+
     <link rel="shortcut icon" type="image/x-icon" href="https://static.parks.org.il/wp-content/uploads/2017/08/logo-1.png">
 
     <title>Avinoam Lourie</title>
@@ -27,8 +29,10 @@
     </div>
 
     <section id="about" class="section">
-      <br />
+
       <h1>About</h1>
+      <br />
+      <br />
       <ab id="aboutText">
             
         
@@ -184,7 +188,6 @@
             opacity: 1
           }
         }
-        /* On smaller screens, decrease text size */
         @media only screen and (max-width: 300px) {
           .prev,
           .next,
@@ -254,10 +257,23 @@
 
     <section id="playlist" class="section">
       <br />
+      <br />
       <h1>Playlist</h1>
-
-          <iframe src="https://player.vimeo.com/video/241011379?h=918e92fa4f" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/241011379"></a> <a href="https://vimeo.com/user34866295"></a>  <a href="https://vimeo.com"></a>.</p>
+      <br />
+      <h2>Carmel Hai-Bar With Avinoam Lourie</h2>
+      <br />
+      <div style="
+      width:832px;
+      margin-left: auto;
+      margin-right: auto;
+      left: 50%;
+      -webkit-border-radius: 10px; 
+      -moz-border-radius: 10px;
+      border-radius: 10px; 
+      overflow: hidden; 
+      ">
+        <iframe src="https://player.vimeo.com/video/241011379?h=918e92fa4f&muted=1&autoplay=1" width="832" height="624" frameborder="0"  allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      </div>
   </video>
       <br />
       <br />
@@ -269,8 +285,10 @@
 
     <section id="like" class="section">
       <br />
+      <br />
       <h1>Like</h1>
-     
+      <br />
+      <br />
 
       
       <div class="f_b">
@@ -288,8 +306,14 @@
 
     <section id="qrcoder" class="section">
       <br />
+      <br />
+
       <h1>QR</h1>
-      <img src="qrcode.png" alt="" height="300" width="300">
+      <br />
+      <br />
+     
+      <br />
+      <img src="qrcode_idolou.github.io.png" alt="" height="300" width="300">
       <br />
       <br />
     </section>
@@ -298,28 +322,64 @@
       <br />
       <h1>Q&A</h1>
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+
+
+      <table id="webs">
+        <tr>
+          <td><b>Differences  </b></td>
+          <td><b>Web 1.0</b></td>
+          <td><b>Web 2.0</b></td>
+          <td><b>Web 3.0</b></td>
+        </tr>
+        <tr>
+          <td><b>1</b></td>
+          <td>Static content, one form of posting content without interaction between readers and advertisers</td>
+          <td>Two-sided communication between advertisers and readers, Web 2.0 is an interactive web where the users can actively participate and engage with the website and other users</td>
+          <td>Not so defined, uses machine learning and artificial intelligence to understand user needs and provide personalized content</td>
+        </tr>
+        <tr>
+          <td><b>2</b></td>
+          <td>Websites were developed and maintained by professionals and only a few users could contribute content</td>
+          <td>Websites are created and maintained by users, allowing anyone to contribute content and share their opinions</td>
+          <td>Decentralized web where users have more control over their data and privacy</td>
+          <tr>
+            <td><b>3</b></td>
+            <td>Websites were basic HTML pages with limited design options and no multimedia, Companies post content that people consume - for example, CNN</td>
+            <td>Websites feature multimedia such as videos, images, and audio, providing a more immersive and engaging user experience, users can pulish content for other users</td>
+            <td>Application by users, uses automation to make complex tasks simpler, enabling machines to communicate with each other and perform complex transactions autonomously.
+
+
+
+
+ </td>
+        </tr>
+        <tr> <td class="fullLineTd" colspan="4"> <h2>Use Cases</h2></td>
+          </tr>
+        <tr><td class="fullLineTd" colspan="4">In web 2.0 User can see ads that not relevant to him, In web 3.0 the user probably will get personalized services that use artificial intelligence and machine learning to understand user needs and preferences</td></tr>
+        <tr><td class="fullLineTd" colspan="4">Web 1.0 User can't communicate online with other user, in Web 2.0 2 users can communicate online</td></tr>
+        <tr><td class="fullLineTd" colspan="4">in Web 1.0 Company can publish recipes, in Web 2.0 also User can</td></tr>
+      </table>
+      <br/>
+
     </section>
 
     <section id="contact" class="section">
+      <br/>
       <br />
       <h1>Contact Me</h1>
+
+
+      <div class="container">
+        <div class="contact_element">
+          <input id="clientMail"  type="text" class="line" placeholder="Your Email">
+          <input id="subject"  type="text" class="line" placeholder="Subject">
+          <textarea name="emoji" id="message" placeholder="Message" class="line"  style="height:200px"></textarea>
+          <button class="button" onclick="openEmail()">Send</button>
+
+        </div>
+      </div>
+
+
       <br />
       <br />
       <br />
@@ -333,25 +393,77 @@
       <br />
       <br />
       <br />
+
       <br />
       <br />
       <br />
       <br />
-      <br />
+
     </section>
 
+    
     <script type="text/javascript">
-      $(function () {
-        $("#nav a").click(function (e) {
+      jQuery(function () {
+        jQuery("#nav a").click(function (e) {
           e.preventDefault();
-          $("html,body").scrollTo(this.hash, this.hash);
+          jQuery("html,body").scrollTo(this.hash, this.hash);
         });
       });
     </script>
     <script type="text/javascript">
-      $(document).scroll(function() {
-         $('#menu').toggle($(this).scrollTop()>1000)
-      });​
+      jQuery(document).scroll(function() {
+        jQuery('#menu').toggle(jQuery(this).scrollTop()>1000)
+      })
     </script>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
+
+    <script>
+      
+    </script>
+
+<script>
+  function openEmail() {
+
+    let mail = document.getElementById("clientMail").value;
+    let subject = document.getElementById("subject").value;
+    let message = document.getElementById("message").value;
+
+    window.location.href = "mailto:helloWorld@gmail.com?subject=" + subject + "&body=" + message + mail
+
+  }
+
+</script>
+
+<script>
+  jQuery(document).ready(function() {
+    jQuery("#message").emojioneArea({
+  	pickerPosition: "left",
+    tonesStyle: "bullet"
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </body>
 </html>
