@@ -82,12 +82,18 @@ body{
 	left: 18%;
 	float:left;
 	margin-top: 0;
-	
+	transition: transform .5s;
 	float: left;
 	color: rgb(199, 199, 199);
 	text-decoration: none;
 	font-weight: bold;
 	-webkit-text-stroke: 1px rgb(0, 100, 22);
+
+}
+
+.menuObject:hover
+{
+	transform: scale(1.1);
 
 }
 
