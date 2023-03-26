@@ -396,27 +396,10 @@ script src="slides.js"
       
     </script>
 
-<script>
-  function openEmail() {
+<script src="sendEmail.js"></script>
+  
+<script src="EmojiJoin.js"></script>
 
-    let mail = document.getElementById("clientMail").value;
-    let subject = document.getElementById("subject").value;
-    let message = document.getElementById("message").value;
-
-    window.location.href = "mailto:helloWorld@gmail.com?subject=" + subject + "&body=" + message + mail
-
-  }
-
-</script>
-
-<script>
-  jQuery(document).ready(function() {
-    jQuery("#message").emojioneArea({
-  	pickerPosition: "left",
-    tonesStyle: "bullet"
-  });
-});
-</script>
 
 
 
