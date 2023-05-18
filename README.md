@@ -1,5 +1,3 @@
-Avinoam Lourie zoologist Website
-
 <h1 align='center'>
   Project 1 - Avinoam Lourie
 </h1>
