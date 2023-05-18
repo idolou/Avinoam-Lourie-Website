@@ -1,4 +1,4 @@
-Avinoam Lourie Website
+Avinoam Lourie zoologist Website
 
 <h1 align='center'>
   Project 1 - Avinoam Lourie
