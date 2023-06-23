@@ -1,5 +1,5 @@
 <h1 align='center'>
-  Project 1 - Avinoam Lourie
+  Avinoam Lourie
 </h1>
 
 
